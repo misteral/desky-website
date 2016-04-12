@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>404 - Page not found – MboxToCsv – Simpe converter from MBOX to CSV</title>
 
-    {% include meta.html %}
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Simpe converter from MBOX to CSV">
+    <meta property="og:description" content="Simpe converter from MBOX to CSV" />
+    
+    <meta name="author" content="MboxToCsv" />
+
+    
+    <meta property="og:title" content="404 - Page not found" />
+    <meta property="twitter:title" content="404 - Page not found" />
+    
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="MboxToCsv - Simpe converter from MBOX to CSV" href="/feed.xml" />
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet" type="text/css">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -33,7 +47,19 @@
   </head>
 
 <body>
-    <div class="Content">{{ content }}</div>
+    <div class="Content"><article class="Page">
+
+  <h1>404 - Page not found</h1>
+
+  <div class="entry">
+    <p>Sorry, we can’t find that page that you’re looking for. You can try again by going <a href="/">back to the homepage</a>.</p>
+
+<p><a href="/"><img src="/images/404.jpg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;" /></a></p>
+
+  </div>
+</article>
+
+</div>
     <div class="Nav">
         <a href="/">Home</a>
         <a href="mailto:support@mboxtocsv.com">Contact</a>
@@ -42,5 +68,21 @@
     <div class="Footer">
         Copyright © 2016 <a href="http://itbeaver.co">Alexander Bobrov</a>. All rights reserved.
     </div>
-    {% include analytics.html %}
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-55685816-3', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/404/',
+		  'title': '404 - Page not found'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
 </body>
