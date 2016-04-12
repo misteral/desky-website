@@ -1,8 +1,8 @@
 # Site settings
 title: "Typewriter"
 description: "So I was feeling nostalgic."
-baseurl: ""
-url: "http://alixedi.github.io"
+baseurl: "http://misteral.github.io/desky-website"
+url: "http://misteral.github.io/desky-website"
 
 # Build settings
 markdown: kramdown
