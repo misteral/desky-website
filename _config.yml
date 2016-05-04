@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Desky for Gitlab
+title: Desky For GitLab
 email: desky@itbeaver.co
 description: > # this means to ignore newlines until "baseurl:"
   Desky for Gitlab - desktop application for Gitlab.
